@@ -7,5 +7,8 @@ export default function App() {
     <AppProvider>
       <AppNavigator />
     </AppProvider>
+  button onclick="adicionar(false)">Fila Normal</button>
+<button onclick="adicionar(true)">Fila Preferencial</button>
+
   );
 }
