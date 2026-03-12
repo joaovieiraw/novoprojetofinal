@@ -10,5 +10,9 @@ export default function App() {
   button onclick="adicionar(false)">Fila Normal</button>
 <button onclick="adicionar(true)">Fila Preferencial</button>
 
+        <Text style={styles.instruction}>
+        Apresente este código na cantina
+      </Text>
+
   );
 }
